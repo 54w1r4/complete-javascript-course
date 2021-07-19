@@ -1,5 +1,5 @@
-let country = 'China';
-let continent = 'Asia';
+const country = 'China';
+const continent = 'Asia';
 let population = 14;
 
 /*
@@ -8,10 +8,13 @@ console.log(continent);
 console.log(population);
 */
 
-let isIsland = true;
+const isIsland = true;
 let language;
 
 console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+
+language = 'Cantonese';
+// isIsland = false;

@@ -22,7 +22,6 @@ let myFirstJob = 'Coder';
 let myCurrentJob = 'Teacher';
 
 console.log(myFirstJob);
-*/
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -41,4 +40,21 @@ console.log(typeof year);
 year = 2021;
 console.log(typeof year);
 
-console.log(typeof null)
+console.log(typeof null);
+
+
+
+let age = 30;
+age = 39;
+
+const birthYear = 2004;
+// birthYear = 2019;
+// const job;
+
+var job = 'accountant';
+job = 'teacher';
+
+firstName = 'Edward';
+console.log(firstName);
+
+*/
