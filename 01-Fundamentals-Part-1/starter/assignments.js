@@ -29,5 +29,6 @@ let averagePopulation = 33;
 console.log(averagePopulation < population);
 
 population--;
-let description = country + ' is in ' + continent + ', and its ' + population + ' million people speak ' + language + '.';
+// let description = country + ' is in ' + continent + ', and its ' + population + ' million people speak ' + language + '.';
+let description = `${country} is in ${continent}, and its ${population} million people speak ${language}.`;
 console.log(description)

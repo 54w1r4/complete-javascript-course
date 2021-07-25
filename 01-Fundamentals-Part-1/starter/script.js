@@ -99,4 +99,26 @@ x = y = 25 - 10 - 5; // x = y = 10
 console.log(x, y);
 
 const averageAge = (ageEdward + ageKevin) / 2;
-console.log(ageEdward, ageKevin, averageAge);*/
+console.log(ageEdward, ageKevin, averageAge);
+
+const firstName = 'Rain';
+const job = 'Developer';
+const birthYear = 2004;
+const currentYear = 2037;
+
+const rain = "I'm " + firstName + ', a ' + (currentYear - birthYear) + ' years old ' + job + '!';
+console.log(rain);
+
+const rainNew = `I'm ${firstName}, a ${currentYear - birthYear} years old ${job}!`
+console.log(rainNew);
+
+console.log(`Just a regular string...`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`String
+multiple
+lines`);
+*/
