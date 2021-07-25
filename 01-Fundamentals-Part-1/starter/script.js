@@ -121,4 +121,23 @@ lines');
 console.log(`String
 multiple
 lines`);
-*/
+
+const age = 15;
+
+if (age >= 18) {
+    console.log('ToyBin can start driving license! 🚗');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`ToyBin is too young. Wait another ${yearsLeft} years :)`)
+}
+
+const birthYear = 2004;
+let century;
+
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+
+console.log(century);*/
