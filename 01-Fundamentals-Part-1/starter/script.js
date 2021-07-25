@@ -1,4 +1,5 @@
 /*
+
 let js = "amazing";
 // console.log(40 + 8 + 23 - 10);
 
@@ -57,4 +58,32 @@ job = 'teacher';
 firstName = 'Edward';
 console.log(firstName);
 
-*/
+// Math Operators
+const now = 2077;
+const ageEdward = now - 2004;
+const ageJacky = now - 2037;
+console.log(ageEdward, ageJacky);
+
+console.log(ageEdward * 2, ageEdward / 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 which is 8
+
+const firstName = 'Chin Wai';
+const lastName = 'Ke';
+console.log(lastName + ' ' + firstName + ' ' + 'Thief');
+
+// Assignment Operators
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1;
+x--;
+x--;
+console.log(x);
+
+// Comparison Operators
+console.log(ageEdward > ageJacky); // >, <, >=, <=
+console.log(ageJacky >= 18);
+
+const isFullAge = ageJacky >= 18;
+
+console.log(now - 2004 > now - 2037);*/
