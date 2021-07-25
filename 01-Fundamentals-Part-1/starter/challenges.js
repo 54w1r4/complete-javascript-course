@@ -10,7 +10,7 @@ let markBMI = massMark / (heightMark * heightMark);
 // console.log(markHigherBMI, markBMI, johnBMI);
 
 if (markBMI > johnBMI) {
-    console.log(`Mark's BMI ${markBMI} is higher than John's ${johnBMI}!`);
+    console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`);
 } else {
-    console.log(`John's BMI ${johnBMI} is higher than Mark's ${markBMI}!`);
+    console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI})!`);
 }
