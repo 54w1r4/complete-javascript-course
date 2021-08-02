@@ -164,6 +164,7 @@ n = n - 1; // 10
 console.log(n);*/
 
 // 5 falsy values: 0, '', undefined, null, NaN
+/*
 console.log(Boolean(0))
 console.log(Boolean(undefined))
 console.log(Boolean('Sponge'))
@@ -184,4 +185,24 @@ if (height) {
     console.log(`YAY! Height is defined!`)
 } else {
     console.log(`Height is UNDEFINED :(`)
+}*/
+
+const age = '18';
+if (age === 18) console.log('You just became an adult. (strict)');
+if (age == 18) console.log('You just became an adult. (loose)');
+
+const favourite = Number(prompt(`What's your favourite number?`));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 108) { // 108 === 108
+    console.log(`Cool! 108 is an amazing number!`);
+} else if (favourite === 504) {
+    console.log(`504 is also a cool number!`);
+} else if (favourite === 611) {
+    console.log(`611 is also a cool number!`);
+} else {
+    console.log(`Number is not 108 or 504 or 611.`);
 }
+
+if (favourite !== 108) console.log(`Why not 108?`);
