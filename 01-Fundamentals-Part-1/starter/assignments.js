@@ -1,6 +1,6 @@
-/*const country = 'China';
+const country = 'China';
 const continent = 'Asia';
-let population = 14;*/
+let population = 14;
 
 /*
 console.log(country);
@@ -8,15 +8,15 @@ console.log(continent);
 console.log(population);
 */
 
-/*const isIsland = true;
-let language;*/
+const isIsland = false;
+let language;
 
 /*console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);*/
 
-// language = 'Cantonese';
+language = 'English';
 // isIsland = false;
 
 /*console.log(population / 2);
@@ -42,6 +42,7 @@ if (population > 33) {
     console.log(`${country}'s population is ${averagePopulation - population} million below average.`);
 }*/
 
+/*
 const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
 
 if (numNeighbours === 1) {
@@ -50,4 +51,10 @@ if (numNeighbours === 1) {
     console.log(`More than 1 border`);
 } else {
     console.log(`No borders`)
+}*/
+
+if (language === 'English' && population < 50 && !isIsland) {
+    console.log(`You should live in ${country}!`);
+} else {
+    console.log(`${country} does not meet your criteria...`);
 }
