@@ -17,7 +17,7 @@ if (markBMI > johnBMI) {
 }*/
 
 // basic
-console.log('Round 1');
+/*console.log('Round 1');
 let averageDolphins = (96 + 108 + 89) / 3;
 let averageKoalas = (88 + 91 + 110) / 3;
 
@@ -57,4 +57,8 @@ if (averageDolphins > averageKoalas && averageDolphins >= 100) {
     console.log('Draw!');
 } else {
     console.log('No Team Win...');
-}
+}*/
+
+const bill = 430;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.20
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
