@@ -231,7 +231,7 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
     console.log(`Someone else should drive...`);
 }*/
 
-const day = 'friday';
+/*const day = 'friday';
 
 switch (day) {
     case 'monday':
@@ -254,10 +254,11 @@ switch (day) {
         break;
     default:
         console.log('Not a valid weekday...');
-}
+}*/
 
 // if style
 
+/*
 if (day === 'monday') {
     console.log('Plan course structure');
     console.log('Go to Coding Meetup');
@@ -271,4 +272,13 @@ if (day === 'monday') {
     console.log('Enjoy the weekend!');
 } else {
     console.log('Not a valid weekday...');
-}
+}*/
+
+const age = 23;
+
+// age >= 18 ? console.log('I like to drink wine!') : console.log('I like to drink water!')
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}.`)
