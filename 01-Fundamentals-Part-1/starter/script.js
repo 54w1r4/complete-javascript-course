@@ -208,12 +208,12 @@ if (favourite === 108) { // 108 === 108
 
 if (favourite !== 108) console.log(`Why not 108?`);*/
 
-const hasDriversLicense = true // A
+/*const hasDriversLicense = true // A
 const hasGoodVision = true // B
 
 console.log(hasDriversLicense && hasGoodVision);
 console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+console.log(!hasDriversLicense);*/
 
 /*if (hasDriversLicense && hasGoodVision) {
     console.log(`YoKan is able to drive.`);
@@ -221,6 +221,7 @@ console.log(!hasDriversLicense);
     console.log(`Someone else should drive...`);
 }*/
 
+/*
 const isTired = false;
 console.log(hasDriversLicense && hasGoodVision && isTired);
 
@@ -228,4 +229,46 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
     console.log(`YoKan is able to drive.`);
 } else {
     console.log(`Someone else should drive...`);
+}*/
+
+const day = 'friday';
+
+switch (day) {
+    case 'monday':
+        console.log('Plan course structure');
+        console.log('Go to Coding Meetup');
+        break;
+    case 'tuesday':
+        console.log('Prepare theory videos');
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write code examples');
+        break;
+    case 'friday':
+        console.log('Record videos');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy the weekend!');
+        break;
+    default:
+        console.log('Not a valid weekday...');
+}
+
+// if style
+
+if (day === 'monday') {
+    console.log('Plan course structure');
+    console.log('Go to Coding Meetup');
+} else if (day === 'tuesday') {
+    console.log('Prepare theory videos');
+} else if (day === 'wednesday' || day === 'thursday') {
+    console.log('Write code examples');
+} else if (day === 'friday') {
+    console.log('Record videos');
+} else if (day === 'saturday' || day === 'sunday') {
+    console.log('Enjoy the weekend!');
+} else {
+    console.log('Not a valid weekday...');
 }
