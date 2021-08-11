@@ -20,12 +20,23 @@ let china = percentageOfWorld1(1441);
 
 console.log(macau, hongKong, china);
 
+/*
 const percentageOfWorld2 = function (population) {
     return population / 7900 * 100;
 }
+*/
 
+/*
 macau = percentageOfWorld2(0.7);
 hongKong = percentageOfWorld2(700);
 china = percentageOfWorld2(1441);
+*/
+
+const percentageOfWorld3 = population => (population / 7900) * 100;
+
+macau = percentageOfWorld3(70);
+hongKong = percentageOfWorld3(700);
+china = percentageOfWorld3(1441);
+
 
 console.log(macau, hongKong, china);
